@@ -1,0 +1,68 @@
+.sobremi{
+  background-color: var(--miBlanco);
+  display: flex;
+  align-self: stretch;
+  height: 70vh;
+ 
+  
+}
+/* ===========  CAJA IZQ TEXTO  ========== */
+
+  .sobremi-texto{
+    background-color: var(--miBlanco);
+    color: var(--miNegro);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 1rem 0rem 5rem;
+    
+  }
+    .sobremi-texto p{
+      padding-top: 0;
+    }
+    .sobremi-subtitulo{
+      padding: 1rem 1rem 0rem 0rem;
+    }
+    .sobremi-parrafo {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
+
+    .sobremi-caja h1{
+      padding: 0rem 1rem 0rem 1rem;
+      border-left: solid var(--miVerde);
+      font-weight: 100;
+      font-size: xx-large;
+      text-transform: uppercase;
+      
+    }
+  .sobremi-btn{
+  
+    padding: 1rem 3rem;
+  
+    background-color:  var(--miNegro);
+    color: rgb(200, 200, 200);
+    border: none;
+    border-radius: 3%;
+    width: 200px;
+  }
+
+  /* ===========  CAJA DER CARA  ========== */
+
+  .sobremi-cara{
+    background-color: var(--miBlanco);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sobremi-cara img{
+    width: 350px;
+    padding: 1rem;
+    margin: 1rem;
+   
+    
+  }

@@ -1,0 +1,24 @@
+.trabajos{
+    background-color: var(--miBlanco);
+    align-self: stretch;
+    padding-left: 5rem;
+    
+    
+  }
+
+    .trabajos-caja{
+      padding: 3rem 3rem 3rem 0rem;
+      color: var(--miNegro);
+      
+    }
+    .trabajos-caja h1{
+      padding-left:  1rem;
+      border-left: solid var(--miVerde);
+      font-weight: 100;
+      font-size: xx-large;
+      text-transform: uppercase;
+      
+    }
+    .trabajos-caja p{
+      padding: 1rem 1rem 0rem 0rem;
+    }

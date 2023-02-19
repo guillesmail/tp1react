@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+ margin: 0; 
+ box-sizing: border-box;
+
+ font-family: 'IBM Plex Serif', serif;
+
+  scroll-behavior: smooth;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+:root {
+ --miNegro: rgb(50,50,50);
+ --miBlanco: rgb(255,255,255);
+ --miVerde: rgb(126,198,123);
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+display: flex; 
+flex-direction: column; 
+align-items: center;
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.fondosupoerior{
+ 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(assets/img/heroblur.jpg); 
+  background-size: cover;
+  background-color: rgb(117, 117, 117);
+  
+}
+
+.fondoinferior{ 
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor{
+
+  width: 85%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  box-shadow: 0 50px 80px var(--miNegro);
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  
+ 
 }

@@ -1,0 +1,101 @@
+.contenedor-footer{
+  
+ 
+    width: 100%;
+    display: flex;
+   
+  
+  }
+  /*     --------CAJA CONTACTO--------- */
+  
+  .contenedor-contacto{
+    
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--miNegro);
+    color: var(--miBlanco);
+    padding-left: 5rem;
+    padding-right: 2rem;
+  
+  }
+  .contenedor-contacto h1{
+    
+    padding-left: 1rem;
+    border-left: solid var(--miVerde);
+    font-weight: 200;
+    font-size: xx-large;
+    text-transform: uppercase;
+  }
+  
+  .contacto-datos{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-style: italic;
+    font-weight: 200;
+     
+  }
+  .contacto-datos p{
+    padding-bottom: 0.5rem;
+  }
+  
+  .redes{
+  padding-top: 1rem;
+  }
+  
+  
+  
+  /* --------sector FORMULARIO-------- */
+  
+  .contenedor-formulario form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+    padding: 2rem 3rem;
+  
+  }
+  
+    .contenedor-formulario label {
+      display: block;
+    }
+  
+  .contenedor-formulario p {
+  
+    padding: 1em;
+    font-style: italic;
+   
+  }
+  
+  .contenedor-formulario .btn-formulario {
+    grid-column: 1 / 3;
+  }
+  
+  .contenedor-formulario button,
+  .contenedor-formulario input,
+  .contenedor-formulario textarea {
+  
+    border: none;
+    background: none;
+    outline: 0;
+    color: #060606;
+    border-bottom: 1px solid var(--miNegro);
+    font-style: italic;
+  }
+  
+  .contenedor-formulario button {
+    background-color:  var(--miNegro);
+    color: var(--miBlanco);
+      border: none;
+      border-radius: 3%;
+      width: 200px;
+      padding: 1rem 3rem;
+    
+  }
+  
+  .contenedor-formulario form button:hover,
+  .ccontenedor-formulario form button:focus {
+    background: #0f0f0f;
+    color: var(--miBlanco);
+  
+  }
