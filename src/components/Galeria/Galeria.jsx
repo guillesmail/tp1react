@@ -14,14 +14,14 @@ const Galeria = () => {
     return(
         <div className="galeria">
         
-            <img src={galeria1} alt="" class="img"/>
-            <img src={galeria2} alt="" class="img"/>
-            <img src={galeria3} alt="" class="img"/>
-            <img src={galeria4} alt="" class="img"/>
-            <img src={galeria5} alt="" class="img"/>
-            <img src={galeria6} alt="" class="img"/>
-            <img src={galeria7} alt="" class="img"/>
-            <img src={galeria8} alt="" class="img"/>
+            <img src={galeria1} alt="Galeria" className="img"/>
+            <img src={galeria2} alt="Galeria" className="img"/>
+            <img src={galeria3} alt="Galeria" className="img"/>
+            <img src={galeria4} alt="Galeria" className="img"/>
+            <img src={galeria5} alt="Galeria" className="img"/>
+            <img src={galeria6} alt="Galeria" className="img"/>
+            <img src={galeria7} alt="Galeria" className="img"/>
+            <img src={galeria8} alt="Galeria" className="img"/>
 
         </div>
     )

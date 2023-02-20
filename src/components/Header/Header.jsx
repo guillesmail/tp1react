@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import './Menu.js'
 
 
 
@@ -8,24 +9,24 @@ const Header = () => {
   
 
     return(
-        <div header class="hero">
+        <div header className="hero">
             
-                <div class="menusuperior">
-                    <div class="logo">
-                        <p class="guille">Guille</p><span>\</span><p class="ojeda">Ojeda</p>
+                <div className="menusuperior">
+                    <div className="logo">
+                        <p className="guille">Guille</p><span>\</span><p className="ojeda">Ojeda</p>
                     </div>
 
-                    <nav id="estado-menu" class="desabilitado-hamb">
+                    <nav id="estado-menu" className="desabilitado-hamb">
                         <ul>
-                            <li  class="nav-lista"><a href="#sobremi">SOBRE MI</a></li>
-                            <li  class="nav-lista"><a href="#trabajos">TRABAJOS</a></li>
-                            <li class="nav-lista"><a href="#contacto">CONTACTO</a></li>
+                            <li  className="nav-lista"><a href="#sobremi">SOBRE MI</a></li>
+                            <li  className="nav-lista"><a href="#trabajos">TRABAJOS</a></li>
+                            <li className="nav-lista"><a href="#contacto">CONTACTO</a></li>
                         </ul>
             
                     </nav>
            
-                    <div class="menu">
-                        <button class="hamburguesa" id="btn-hamburguesa">
+                    <div className="menu">
+                        <button className="hamburguesa" id="btn-hamburguesa">
                             <hr></hr>
                             <hr></hr>
                             <hr></hr>
@@ -34,8 +35,8 @@ const Header = () => {
                     </div> 
                 </div>
         
-                <section class="hero-texto">
-                    <div class="hero-titulo">
+                <section className="hero-texto">
+                    <div className="hero-titulo">
                         <h1>¡hola! soy Guille</h1>
                     </div>
           

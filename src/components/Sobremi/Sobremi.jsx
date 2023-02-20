@@ -5,18 +5,18 @@ import rostro from '../img/rostro.jpg'
 const Sobremi = () => {
     return(
         <div>
-             <section  id="sobremi" class="sobremi">
+             <section  id="sobremi" className="sobremi">
 
-<div class="sobremi-texto">
+<div className="sobremi-texto">
 
-  <div class="sobremi-caja">
+  <div className="sobremi-caja">
     <h1>sobre mi</h1>
   </div>
 
- <div class="sobremi-subtitulo">
+ <div className="sobremi-subtitulo">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
 
-   <div class="sobremi-parrafo">
+   <div className="sobremi-parrafo">
     <p>
       consectetur adipisicing elit. Molestiae nesciunt eveniet libero nihil, odit saepe ratione, illo incidunt beatae, impedit nobis animi doloribus. Ea explicabo voluptatibus quia itaque? Nemo, animi?
     </p>
@@ -28,13 +28,13 @@ const Sobremi = () => {
  
 
   <div>
-    <button class="sobremi-btn">Descargar CV</button>
+    <button className="sobremi-btn">Descargar CV</button>
     
   </div>
 
 </div>
 
-<div class="sobremi-cara">
+<div className="sobremi-cara">
   <img src={rostro} alt="" class="img"/>
 
 </div>
