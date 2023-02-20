@@ -4,7 +4,7 @@
     flex-direction: column;
     width: 85%; 
     height: 90%;
-  background-image: url(../Header/hero.jpg);  
+    background-image: url(../Header/hero.jpg);  
     background-size: cover; 
     background-position: center; 
     align-items: center;

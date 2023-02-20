@@ -55,3 +55,79 @@ align-items: center;
   
  
 }
+
+/* -----------Primer responsive 480px---------- */
+
+@media (max-width: 480px){
+
+  .servicios{
+ 
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+  .sobremi-btn{
+  
+    padding: 0.5rem 1rem;
+    width: 100px;
+    margin-bottom: 2rem;
+  }
+
+  
+
+  .redes{
+    display: none;
+    }
+
+    #contact-form {
+      display: flex;
+     flex-direction: column;
+      width: auto;
+   
+    
+    }
+
+    .trabajos{
+     
+      
+      padding-left: 1rem;
+      
+      
+    }
+
+}
+
+
+/* -----------Primer responsive 300px---------- */
+
+
+
+@media (max-width: 300px){
+
+  .contacto-datos p{
+    display: none;
+  }
+
+  .contact-form form button {
+  
+      width: 100px;
+      padding: 0.5rem 1rem;
+    
+  }
+
+}
+
+
+@media (max-width: 720px){
+
+  .hamburguesa {
+   display: none;
+    
+    
+  }
+  #estado-menu{
+    display: none;
+  }
+
+}
