@@ -63,9 +63,7 @@
   .guille{
     color: rgb(200, 200, 200);
   }
-  .ojeda{
-  
-  }
+
   
     /* ---------------MENU HAMBURGUESA-------------------- */
     
@@ -131,7 +129,7 @@
   
   ul{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     margin-top: 10px;
     margin-right: 10px;
   }
