@@ -1,5 +1,6 @@
 import React from 'react';
 import './Sobremi.css'
+import rostro from '../img/rostro.jpg'
 
 const Sobremi = () => {
     return(
@@ -34,7 +35,7 @@ const Sobremi = () => {
 </div>
 
 <div class="sobremi-cara">
-  <img src="img/rostro.jpg" alt="" class="img"/>
+  <img src={rostro} alt="" class="img"/>
 
 </div>
 
