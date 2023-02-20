@@ -40,7 +40,7 @@ const Header = () => {
                     </div>
           
                     <p>Bienvenido a mi sitio web.</p>
-                    <p>Soy un programador en pañales.</p>
+                    <p>Soy un programador aún en pañales.</p>
   
                 </section>
            
